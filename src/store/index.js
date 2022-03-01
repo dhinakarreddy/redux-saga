@@ -1,6 +1,6 @@
 import { createStore, applyMiddleware, compose } from "redux";
 import createSagaMiddleware from 'redux-saga'
-import { IMAGES } from "../constants";
+// import { IMAGES } from "../constants";
 
 import rootReducer from "../reducers";
 import rootSaga from "../sagas";
